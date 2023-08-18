@@ -123,7 +123,7 @@ picture.foto{
 
 main p {
   margin: 10px 0px;
-  
+  font-weight: normal;
   text-indent: 10px;
   font-size: 1.1em;
   line-height: 1.3em;
