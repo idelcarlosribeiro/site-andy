@@ -26,6 +26,10 @@ body {
   background-color: var(--cor3);
 }
 
+body p {
+  text-justify: auto;
+}
+
 header{
   background-image: url(../imagens/baner.jpg);
   background-size: auto;
