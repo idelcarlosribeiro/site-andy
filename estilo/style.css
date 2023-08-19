@@ -39,6 +39,13 @@ header{
   padding-top: 12px;
 }
 
+h1.noticias {
+  background-color:rgb(14, 14, 14);
+  width: 210px;
+  margin: auto;
+  margin-top: 34px;
+}
+
 header h1 {
   color: #becfc8;
   text-shadow: 3px 2px 6px rgba(0, 0, 0, 0.466);
