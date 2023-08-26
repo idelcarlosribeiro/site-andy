@@ -39,7 +39,6 @@ header h1 {
   
 }
 
-
 header > p {
   font-family: var(--fonte-padrao);
   text-align: center;
@@ -64,19 +63,19 @@ header a:hover {
   color: rgb(158, 195, 9);
 }
 
-nav {
-background-color: rgb(15, 15, 15);
-  box-shadow: 3px 3px 13px 1px rgba(0, 0, 0, 0.308);
-  height: 60px;
-  position: relative;
-}
-
 .header{
   display: flex;
   flex-direction: row;
   align-items: center;
   background-color: #0e0e0e;
   
+}
+
+nav {
+background-color: rgb(15, 15, 15);
+  box-shadow: 3px 3px 13px 1px rgba(0, 0, 0, 0.308);
+  height: 60px;
+  position: relative;
 }
 
 .logo > a {
@@ -99,7 +98,6 @@ background-color: rgb(15, 15, 15);
   color: var(--cor0);
 }
 
-
 main {
   min-width: 300px;
   max-width: 1000px;
@@ -112,41 +110,6 @@ main {
   border-bottom-right-radius: 10px;
 }
 
-main#noticias {
-  display: flex;
-  margin: 3px;
-  flex: 1 1 vh;
-  margin: 3px;
-  flex: 20 1 100vw;
-  flex-wrap: wrap;
-}
-
-.conteiner {
-  background-color: brown;
-  display: flex;
-  margin: 3px;
-  flex: 1 3 100vh;
-  flex-wrap: wrap;
-}
-aside {
-  text-align: center;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.529);
-  width: 460px;
-  float: right;
-  margin: auto;
-  position: relative;
-}
-  
-aside > div#caixa {
-  position: absolute;
-  background-color:  rgba(255, 255, 255, 0.529);
-  border-radius: 10px;
-  top: 3%;
-  left: 3%;
-  width: 90%;
-
-}
 main h1 {
   font-family: var(--fonte-padrao);
   font-weight: normal;
@@ -157,13 +120,6 @@ main h2 {
   background-image: linear-gradient(to right, #07babd7f, transparent);
   font-size: 1.6em;
 }
-
-picture.foto{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-
 
 main p {
   margin: 10px 0px;
@@ -184,6 +140,33 @@ main a:hover {
   text-decoration: underline;
   color: #33b885;
 }
+
+aside {
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.529);
+  width: 460px;
+  float: right;
+  margin: auto;
+  position: relative;
+}
+  
+aside > div#caixa {
+  position: absolute;
+  background-color:  rgba(255, 255, 255, 0.529);
+  border-radius: 10px;
+  top: 3%;
+  left: 3%;
+  width: 90%;
+
+}
+
+picture.foto{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
 
 div.video {
   background-color: var(--cor0);

@@ -50,39 +50,25 @@ header a {
   background-color: #0e0e0e;
 }
 
-nav {
-background-color: rgb(15, 15, 15);
-  box-shadow: 3px 3px 13px 1px rgba(0, 0, 0, 0.308);
-  height: 60px;
-  position: relative;
+.logo > a {
+  padding: 5px;
+  margin: 2px;
+  width: 150px;
 }
 
-nav > a {
-    color: #15b97a;
+.navega > a {
+  color: #15b97a;
   font-size: 1.2em;
   padding: 10px;
+  border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
   transition-duration: 0.5s;
-  text-decoration: none;
-  display: inline;
 }
 
-nav > a:hover {
+.navega a:hover {
   background-color: var(--cor3);
   color: var(--cor0);
-}
-
-header > a {
-  
-  flex-direction: row;
-}
-
-
-.main {
-  display: flex;
-  flex: 1;
-  color: black;
 }
 
 .left {
@@ -101,6 +87,12 @@ main {
   
 }
 
+.main {
+  display: flex;
+  flex: 1;
+  color: black;
+}
+
 .right {
   background-color: gray;
   padding: 3em 0 3em 0;
@@ -109,9 +101,24 @@ main {
 
 footer {
   background-color: var(--cor4);
-  padding: 1em 0 1em 0;
   text-align: center;
+  font-size: 0.9em;
+  padding: 5px;
 }
+
+footer a {
+  text-decoration: none;
+  color:  rgb(19, 7, 149);
+  font-weight: bolder;
+  background-color: rgba(240, 248, 255, 0.429);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #37c87b;
+}
+
 
 @media all and (max-width: 550px){
   .main{
@@ -121,55 +128,3 @@ footer {
     padding: 5em 0 5em 0;
   }
 }
-
-
-
-
-
-header a {
-  text-decoration: none;
-  font-weight: bold;
-  color: rgb(128, 119, 218);
-  background-color: rgba(93, 16, 200, 0.235);
-}
-
-header a:hover {
-  color: rgb(158, 195, 9);
-}
-
-nav {
-background-color: rgb(15, 15, 15);
-  box-shadow: 3px 3px 13px 1px rgba(0, 0, 0, 0.308);
-  height: 60px;
-  position: relative;
-}
-
-.header{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: #0e0e0e;
-  
-}
-
-.logo > a {
-  padding: 5px;
-  margin: 2px;
-}
-
-.navega > a {
-  color: #15b97a;
-  font-size: 1.2em;
-  padding: 10px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  transition-duration: 0.5s;
-}
-
-.navega a:hover {
-  background-color: var(--cor3);
-  color: var(--cor0);
-}
-
-
