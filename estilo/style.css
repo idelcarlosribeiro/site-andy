@@ -116,8 +116,6 @@ main h2 {
 
 main p {
   margin: 10px 0px;
-  text-align: justify;
-  text-indent: 10px;
   font-size: 1.1em;
   line-height: 1.3em;
 }
