@@ -68,15 +68,8 @@ header a:hover {
   flex-direction: row;
   align-items: center;
   background-color: #0e0e0e;
-  
 }
 
-nav {
-background-color: rgb(15, 15, 15);
-  box-shadow: 3px 3px 13px 1px rgba(0, 0, 0, 0.308);
-  height: 60px;
-  position: relative;
-}
 
 .logo > a {
   padding: 5px;
@@ -89,7 +82,7 @@ background-color: rgb(15, 15, 15);
   padding: 10px;
   border-radius: 10px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bolder;
   transition-duration: 0.5s;
 }
 

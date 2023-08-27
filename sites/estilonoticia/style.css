@@ -23,7 +23,6 @@ body {
   height: 95vh
   flex: 1 1 100px;
   background-color: var(--cor3);
-  font-family: Arial, Helvetica, sans-serif;
   color: white;
   font-size: 15px;
   display: flex;
@@ -45,11 +44,13 @@ header a {
 }
 
 .header{
+  font-family: Georgia, 'Times New Roman', Times, serif;
   display: flex;
   flex-direction: row;
   align-items: center;
   background-color: #0e0e0e;
 }
+
 
 .logo > a {
   padding: 5px;
@@ -57,7 +58,7 @@ header a {
   width: 150px;
 }
 
-.navega > a {
+div.navega > a {
   color: #15b97a;
   font-size: 1.2em;
   padding: 10px;
@@ -66,6 +67,7 @@ header a {
   font-weight: bold;
   transition-duration: 0.5s;
 }
+
 
 .navega a:hover {
   background-color: var(--cor3);
@@ -81,6 +83,7 @@ header a {
 }
 
 main {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: white;
   padding: 3em 0 3em 0;
   flex: 3 1 100px;
