@@ -91,6 +91,12 @@ main {
   border-bottom-right-radius: 10px;
 }
 
+main > h1 {
+  font-family: var(--fonte-padrao);
+  font-weight: normal;
+  font-size: 2.1em;
+}
+
 main > p, h1 {
   padding: 8px;
 }
