@@ -68,19 +68,57 @@ div.navega > a {
   transition-duration: 0.5s;
 }
 
-
 .navega a:hover {
   background-color: var(--cor3);
   color: var(--cor0);
 }
 
-.left {
+aside.left {
   background-color: rgba(128, 128, 128, 0.592);
   padding: 3em 0 3em 0;
   flex: 1 1 100px;
   text-align: center;
   padding: 10px;
 }
+
+div.hultimanoticia {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+div.hultimanoticia::after {
+  position: absolute;
+  content: " ";
+  margin: -10px;
+  width: 100%;
+  margin-left: 0px;
+  height: 5px;
+  background-color: rgb(73, 42, 165);
+  bottom: 0;
+  left: 0;
+}
+
+aside.left > h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.9em;
+  color: black;
+  padding-bottom: 30px;
+}
+
+
+
+div.asunto > p > a {
+  text-decoration: none;
+  color: #0e0e0e;
+  font-size: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.asunto > p > a:hover {
+  color: #5bdaa9;
+}
+
+
 
 main {
   font-family: Arial, Helvetica, sans-serif;
@@ -101,6 +139,24 @@ main > p, h1 {
   padding: 8px;
 }
 
+main >div.momento > p {
+  display: inline-flex;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+main >div.momento > p > img {
+  width: 330px;
+  margin: 20px;
+}
+
+main >div.momento > p > a {
+  text-decoration: none;
+  color: #0e0e0e;
+}
+
+
+
 body > div.main {
   display: flex;
   color: black;
@@ -110,13 +166,24 @@ body > div.main {
   margin-top: 0vh;
 }
 
-.right {
+
+
+aside.right {
   background-color: rgba(128, 128, 128, 0.592);
   padding: 3em 0 3em 0;
   flex: 1 1 100px;
   text-align: center;
   padding: 10px;
 }
+
+aside.right > h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.9em;
+  color: black;
+  padding-bottom: 30px;
+}
+
+
 
 footer {
   background-color: var(--cor4);
