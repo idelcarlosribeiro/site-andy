@@ -77,7 +77,7 @@ div.navega > a {
 aside.left {
   background-color: rgba(128, 128, 128, 0.592);
   padding: 3em 0 3em 0;
-  flex: 1 1 100px;
+  flex: 0 1 9px;
   text-align: center;
   padding: 10px;
 }
@@ -99,7 +99,7 @@ div.hultimanoticia::after {
   left: 0;
 }
 
-aside.left > h1 {
+aside.artigo > h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.9em;
   color: black;
@@ -125,7 +125,7 @@ main {
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
   padding: 1em 0 3em 0;
-  flex: 3 1 100px;
+  flex: 2 1 100px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -169,15 +169,15 @@ body > div.main {
 
 
 
-aside.asunto {
+aside.artigo {
   background-color: rgba(128, 128, 128, 0.592);
   padding: 3em 0 3em 0;
-  flex: 1 1 100px;
+  flex: 0 1 9px;
   text-align: center;
   padding: 10px;
 }
 
-aside.asunto > h1 {
+aside.artigo > h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.9em;
   color: black;
@@ -213,7 +213,6 @@ footer a:hover {
   }
   main{
     padding: 5em 0 5em 0;
-    margin: auto;
   }
   div.momento > p {
     flex-direction: column;
