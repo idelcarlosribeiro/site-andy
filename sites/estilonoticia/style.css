@@ -206,14 +206,16 @@ footer a:hover {
 }
 
 
-@media all and (max-width: 1096px){
+@media all and (max-width: 1111px){
   .main{
     flex-direction: column;
   }
   main{
     padding: 5em 0 5em 0;
+    margin: auto;
   }
   div.momento > p {
     flex-direction: column;
+    margin: auto;
   }
 }
