@@ -146,6 +146,11 @@ main >div.momento > p {
   padding: 10px;
 }
 
+main >div.momento > p picture > img {
+  padding: 10px;
+}
+
+
 main >div.momento > p > img {
   width: 330px;
   margin: 20px;
@@ -216,6 +221,5 @@ footer a:hover {
   }
   div.momento > p {
     flex-direction: column;
-    
   }
 }
