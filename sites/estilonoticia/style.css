@@ -74,13 +74,22 @@ div.navega > a {
   color: var(--cor0);
 }
 
+
 aside.left {
-  background-color: rgba(128, 128, 128, 0.592);
+  background-color: rgba(128, 128, 128, 0.464);
   padding: 3em 0 3em 0;
   flex: 0 1 9px;
   text-align: center;
   padding: 10px;
 }
+
+aside.left > h1 {
+  font-size: 1.7em;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
 
 div.hultimanoticia {
   margin-bottom: 20px;
@@ -98,14 +107,6 @@ div.hultimanoticia::after {
   bottom: 0;
   left: 0;
 }
-
-aside.artigo > h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.9em;
-  color: black;
-  padding-bottom: 30px;
-}
-
 
 
 div.asunto > p > a {
@@ -175,18 +176,11 @@ body > div.main {
 
 
 aside.artigo {
-  background-color: rgba(128, 128, 128, 0.592);
+  background-color: rgba(128, 128, 128, 0.464);
   padding: 3em 0 3em 0;
   flex: 0 1 9px;
   text-align: center;
   padding: 10px;
-}
-
-aside.artigo > h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.9em;
-  color: black;
-  padding-bottom: 30px;
 }
 
 
