@@ -145,6 +145,7 @@ main >div.momento > p {
   display: flex;
   font-size: 1.2em;
   padding: 10px;
+  align-items: center;
 }
 
 main >div.momento > p picture > img {
