@@ -75,7 +75,7 @@ div.navega > a {
 }
 
 
-aside.left {
+aside.lados {
   background-color: rgba(128, 128, 128, 0.464);
   padding: 3em 0 3em 0;
   flex: 0 1 9px;
@@ -83,7 +83,7 @@ aside.left {
   padding: 10px;
 }
 
-aside.left > h1 {
+aside.lados > h1 {
   font-size: 1.7em;
   margin-bottom: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
