@@ -140,7 +140,7 @@ main > p, h1 {
 }
 
 main >div.momento > p {
-  display: inline-flex;
+  display: flex;
   font-size: 1.2em;
   padding: 10px;
 }
@@ -206,11 +206,14 @@ footer a:hover {
 }
 
 
-@media all and (max-width: 550px){
+@media all and (max-width: 1096px){
   .main{
     flex-direction: column;
   }
   main{
     padding: 5em 0 5em 0;
+  }
+  div.momento > p {
+    flex-direction: column;
   }
 }
