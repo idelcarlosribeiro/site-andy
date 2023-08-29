@@ -216,9 +216,6 @@ footer a:hover {
   }
   div.momento > p {
     flex-direction: column;
-    margin: auto;
-  }
-  div.asunto, div.momento {
-    margin: auto;
+    
   }
 }
