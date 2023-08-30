@@ -132,6 +132,11 @@ main {
   position: relative;
 }
 
+main#conteudo > picture > img {
+  margin: 10px;
+  
+}
+
 main > .momento::after {
   content: " ";
   width: 100%;
@@ -170,7 +175,6 @@ main >div.momento > p > a {
   text-decoration: none;
   color: #0e0e0e;
 }
-
 
 
 body > div.main {
