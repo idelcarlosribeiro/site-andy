@@ -126,16 +126,37 @@ main {
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
   padding: 1em 0 3em 0;
-  flex: 2 1 100px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   position: relative;
+  width: 800px;
+  width: auto
 }
 
-main#conteudo > picture > img {
-  margin: 10px;
+main#conteudo > aside > h1{
+  margin: 15px;
+  font-family: var(--fonte-padrao);
+  font-weight: normal;
+  font-size: 2.1em;
   
 }
+main#conteudo > aside > h2{
+  background-image: linear-gradient(to right, #07babd7f, transparent);
+  font-size: 1.6em;
+  margin: 15px;
+}
+main#conteudo > aside > picture > img {
+  margin: 10px;
+  max-width: 100%;
+}
+main#conteudo > aside > p{
+  margin: 10px;
+  font-size: 1.3em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-indent: 20px;
+}
+
+
 
 main > .momento::after {
   content: " ";
