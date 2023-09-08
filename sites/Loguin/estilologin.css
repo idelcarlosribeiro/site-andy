@@ -36,9 +36,9 @@ body {
 .header{
   display: flex;
   align-items: center;
-  background-color: #0e0e0e;
+  background-color: #900a0a;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
 }
 
 
@@ -90,6 +90,7 @@ main {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  margin: auto;
 }
 #cadastro {
   color: black;
