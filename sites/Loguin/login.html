@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Loguin</title>
-    <link rel="shortcut icon" href="../../icone.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="estilologin.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="../../icone.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="estilologin.css" />
+  </head>
+  <body>
     <header>
-      <h1>Noticias</h1>
+      
     </header>
 
     <div class="header">
@@ -26,7 +26,59 @@
       </div>
     </div>
     <main>
-        
+      <div id="cadastro">
+        <form action="form.php" method="get" autocomplete="on">
+          <fieldset>
+            <legend>Cadastro</legend>
+            <div id="emal">
+              <label for="usu">Emal:</label>
+              <input 
+              type="email" 
+              name="email" 
+              id="iemal" 
+              required 
+              />
+            </div>
+            <div id="senha">
+              <label for="senha">Senha:</label>
+              <input
+                type="password"
+                name="senha"
+                id="isenha"
+                required
+                minlength="8"
+                size="21"
+                placeholder="mino de 8 Caractere"
+              />
+            </div>
+            <div id="sexo">
+              <input type="radio" name="sexo" id="isexo">
+              <label for="mascu">Masculino</label>
+              <input type="radio" name="sexo" id="ifem">
+              <label for="fem">Feminino</label>
+              <input type="radio" name="sexo" id="inao">
+              <label for="nao">Prefiro não Enformar</label>
+            </div>
+            <dir id="telefone">
+              <label for="telefone">Telefone:</label>
+              <input
+                type="tel"
+                name="tfone"
+                id="itfone"
+                required
+                placeholder="(xx)xxxx-xxxx"
+                pattern="^\(\d{2}\)\d{4,5}-\d{4}$"
+                size="10"
+              />
+            </dir>
+          </fieldset>
+
+          <div id="botois">
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Apagar" />
+          </div>
+        </form>
+      </div>
     </main>
-</body>
+  </body>
 </html>

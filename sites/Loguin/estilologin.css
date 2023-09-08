@@ -20,14 +20,14 @@
 
 
 body {
-  height: 95vh;
-  flex: 1 1 100px;
-  background-color: var(--cor3);
-  color: white;
-  font-size: 15px;
-  display: flex;
+  height: 100vh;
+  background-image: url(imgloguin/zero-two-feature.png);
+  background-color: rgba(153, 50, 204, 0.458);
   flex-direction: column;
   margin: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -90,60 +90,38 @@ div.navega > a {
   color: var(--cor0);
 }
 
-aside.lados {
-  background-color: rgba(128, 128, 128, 0.464);
-  padding: 3em 0 3em 0;
-  flex: 0 1 9px;
-  text-align: center;
-  padding: 10px;
-}
-
-aside.lados > h1 {
-  font-size: 1.7em;
-  margin-bottom: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-
-div.hultimanoticia {
-  margin-bottom: 20px;
-  position: relative;
-}
-
-div.hultimanoticia::after {
-  position: absolute;
-  content: " ";
-  margin: -10px;
-  width: 100%;
-  margin-left: 0px;
-  height: 5px;
-  background-color: rgb(73, 42, 165);
-  bottom: 0;
-  left: 0;
-}
-
-
-div.asunto > p > a {
-  text-decoration: none;
-  color: #0e0e0e;
-  font-size: 1.3em;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-div.asunto > p > a:hover {
-  color: #5bdaa9;
-}
-
-
 
 main {
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
   margin: auto;
   width: 400px;
-  height: 1000px;
+  height: 260px;
   margin-top: 20px;
   border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.437);
 }
+#cadastro {
+  color: black;
+  text-align: center;
+  margin: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+legend{
+  font-size: 1.4em;
+}
+#emal {
+  margin: 20px;
+}
+#telefone{
+  margin: 20px;
+}
+#botois {
+  margin: 10px;
+}
+#sexo{
+  margin: 10px;
+}
+
 
