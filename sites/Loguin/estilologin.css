@@ -38,7 +38,7 @@ body {
   align-items: center;
   background-color: #0e0e0e;
   justify-content: center;
-  margin: auto;
+  width: 100vw;
 }
 
 
@@ -91,6 +91,7 @@ main {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  margin: auto;
 }
 #cadastro {
   color: black;
