@@ -45,11 +45,11 @@ header a {
 }
 
 .header{
-  font-family: Georgia, 'Times New Roman', Times, serif;
   display: flex;
   flex-direction: row;
   align-items: center;
   background-color: #0e0e0e;
+  justify-content: space-evenly;
 }
 
 
@@ -74,6 +74,21 @@ div.navega > a {
   color: var(--cor0);
 }
 
+#loguim > a {
+  color: #15b97a;
+  font-size: 1.2em;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bolder;
+  transition-duration: 0.5s;
+  align-items: center;
+  
+}
+#loguim a:hover {
+  background-color: var(--cor3);
+  color: var(--cor0);
+}
 
 aside.lados {
   background-color: rgba(128, 128, 128, 0.464);
