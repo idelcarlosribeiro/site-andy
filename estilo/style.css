@@ -26,6 +26,7 @@ body {
 header{
   background-image: url(../imagens/baner.jpg);
   background-size: auto;
+  width: 100vh;
   background-position: center center;
   min-height: 150px;
   text-align: center;
@@ -64,6 +65,7 @@ header a:hover {
 }
 
 .header{
+  width: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
