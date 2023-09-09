@@ -322,7 +322,14 @@ footer_contacts h1{
     padding: 0.5rem;
     font-weight: 100;
 }
-
+@media screen and (max-width:768px) {
+  .header #loguim {
+    flex-direction: column;
+  }
+  .header{
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 768px){
     #footer_content {
         grid-template-columns: repeat(2, 1fr);
