@@ -33,7 +33,6 @@ body {
   font-size: 15px;
   display: flex;
   flex-direction: column;
-  margin: auto;
 }
 
 header {
@@ -98,8 +97,6 @@ div.navega > a {
 
 aside.lados {
   background-color: rgba(128, 128, 128, 0.464);
-  padding: 3em 0 3em 0;
-  flex: 0 1 9px;
   text-align: center;
   padding: 10px;
 }
@@ -150,8 +147,6 @@ main {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   position: relative;
-  width: 800px;
-  width: auto
 }
 
 main#conteudo > aside > h1{
@@ -159,7 +154,6 @@ main#conteudo > aside > h1{
   font-family: var(--fonte-padrao);
   font-weight: normal;
   font-size: 2.1em;
-  
 }
 main#conteudo > aside > h2{
   background-image: linear-gradient(to right, #07babd7f, transparent);
@@ -376,15 +370,33 @@ footer_contacts h1{
 
 
 
+@media screen and (max-width:720px) {
+  .header #loguim {
+    flex-direction: column;
+  }
+  .header{
+    flex-direction: column;
+  }
+  
+  body > div.main {
+  display: flex;
+  color: black;
+  margin-bottom: 0vh;
+  margin-right: 0vh;
+  margin-left: 0vh;
+  margin-top: 0vh;
+}
+}
+
 
 @media all and (max-width: 1111px){
   .main{
     flex-direction: column;
+    
   }
-  main{
-    padding: 5em 0 5em 0;
-  }
+
   div.momento > p {
     flex-direction: column;
+    
   }
 }
