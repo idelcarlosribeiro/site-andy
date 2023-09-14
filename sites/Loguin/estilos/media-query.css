@@ -37,9 +37,6 @@
     }
     .open {
         display: block;
-        float: right;
-        width: 230px;
-        background-color: #23252a;
     }
 }
 
