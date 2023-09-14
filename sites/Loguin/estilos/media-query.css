@@ -1,7 +1,49 @@
 @charset "  UFT-8";
 
+@media screen and (max-width: 830px)  { /*Header*/
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        padding: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 4rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+        float: right;
+        width: 230px;
+        background-color: #23252a;
+    }
+}
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {/*Tablet cll*/
     body {
         background-image: linear-gradient(to top, #B381AD, #C97C8B, #CE474A);
     }
@@ -21,9 +63,10 @@
         float: right;
         width: 70%;
     }
+    
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:992px) { /*Desktop Tv*/
     body {
         background-image: linear-gradient(to top, #B381AD, #C97C8B, #CE474A);
     }

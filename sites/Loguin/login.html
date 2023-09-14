@@ -8,26 +8,47 @@
     <link rel="stylesheet" href="estilos/estilologin.css"/>
     <link rel="stylesheet" href="estilos/media-query.css">
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet"/>
   </head>
   <body>
     <main>
-       <header>
-      <div class="header">
+      <header>
+      <nav class="nav-bar">
         <div class="logo">
-          <a href="../../index.html"
-            ><img src="../../imagens/andyniws.png" alt="Logo" width="150px"
-          /></a>
+          <h1>Logo</h1>
         </div>
-        <div class="navega">
-          <a href="../../index.html">Home</a>
-          <a href="../noticias.html">Noticias</a>
-          <a href="#">Entrevista</a>
-          <a href="#">Contato</a>
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Noticias</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Entrevista</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+          </ul>
         </div>
+
+        <div class="login-button">
+          <button><a href="#">Login</a></button>
+        </div>
+
+        <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="imgloguin/menu_white_36dp.svg" alt=""></button>
       </div>
-    </header>
+      </nav>
+
+      <div class="mobile-menu">
+        <ul>
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Noticias</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Entrevista</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+        </ul>
+
+        <div class="login-button">
+          <button><a href="#">Login</a></button>
+        </div>
+        
+      </div>
+      </header>
       <section id="login">
         <div id="imagem"></div>
         <div id="formulario">
@@ -51,5 +72,6 @@
         </div>
       </section>
     </main>
+    <script src="js/script.js"></script>
   </body>
 </html>
