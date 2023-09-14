@@ -34,7 +34,7 @@ header {
   background-color: #23252a;
   box-shadow: 0px 2px 10px #464646;
   z-index: 10;
-  width: 100vw;
+  width: 100%;
 }
 
 .nav-bar {
@@ -147,7 +147,7 @@ aside {
   margin: auto;
   position: relative;
 }
-  
+
 aside > div#caixa {
   position: absolute;
   background-color:  rgba(255, 255, 255, 0.529);
@@ -186,7 +186,7 @@ div.video > iframe {
 
 
 footer{
-    width: 100vw;
+    width: 100%;
     color: #f5f5f5;
     
 }
