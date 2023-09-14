@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 768px){
     main {
-        width: 100vw;
+        width: 100%;
     }
     #footer_content {
         grid-template-columns: repeat(2, 1fr);
